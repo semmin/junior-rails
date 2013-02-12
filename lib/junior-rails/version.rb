@@ -1,0 +1,5 @@
+module Junior
+  module Rails
+    VERSION = "0.0.1"
+  end
+end
