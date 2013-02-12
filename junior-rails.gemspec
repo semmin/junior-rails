@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Junior::Rails::VERSION
   gem.authors       = ["semmin", "stoplion"]
   gem.email         = ["sbagreev@gmail.com", "stoplion@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Adds Junior front end framework to Rails app}
+  gem.summary       = %q{Adds Junior front end framework to Rails app}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
