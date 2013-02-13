@@ -1,7 +1,6 @@
-//= require junior
+//= require modernizr.custom.15848
+//= require zepto.min
+//= require zepto.flickable.min
+//= require lodash.min
 //= require backbone-min
 //= require junior
-//= require lodash.min
-//= require modernizr.custom.15848
-//= require zepto.flickable.min
-//= require zepto.min

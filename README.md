@@ -22,12 +22,11 @@ After installing the gem, add Junior assets to your manifest files:
 OR in case if don't want to include certain files (let's say you already have `modernizr` in your app), you can require files individually:
 
     # application.js
-    //= require backbone-min
-    //= require junior
-    //= require lodash.min
     //= require modernizr.custom.15848
-    //= require zepto.flickable.min
     //= require zepto.min
+    //= require zepto.flickable.min
+    //= require lodash.min
+    //= require backbone-min
     //= require junior
 
     # application.css
@@ -43,9 +42,13 @@ OR require individually:
     *= require junior
     */
 
-## Heavily inspired by [jquery-rails](https://github.com/rails/jquery-rails)
+## Acknowledgements
+
+Heavily influenced by [jquery-rails](https://github.com/rails/jquery-rails)
 
 ## Contributing
+
+If any of libraries in `vendor/assets` is out of date, feel free to put in a pull request with new version of the library.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
