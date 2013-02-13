@@ -1,6 +1,6 @@
 # Junior::Rails
 
-`junior-rails` integrates [Junior](http://justspamjustin.github.com/junior/#home) front-end framework into Rails apps.
+`junior-rails` packages [Junior](http://justspamjustin.github.com/junior/#home) front-end framework files and integrates it into Rails apps.
 
 ## Installation
 
@@ -19,8 +19,31 @@ After installing the gem, add Junior assets to your manifest files:
     # application.js
     //= require junior_manifest
 
+OR in case if don't want to include certain files (let's say you already have `modernizr` in your app), you can require files individually:
+
+    # application.js
+    //= require backbone-min
+    //= require junior
+    //= require lodash.min
+    //= require modernizr.custom.15848
+    //= require zepto.flickable.min
+    //= require zepto.min
+    //= require junior
+
     # application.css
-    
+    /*...
+    *= require junior_manifest
+    */
+
+OR require individually:
+
+    # application.css
+    /*...
+    *= require ratchet
+    *= require junior
+    */
+
+## Heavily inspired by [jquery-rails](https://github.com/rails/jquery-rails)
 
 ## Contributing
 
