@@ -1,6 +1,6 @@
 # Junior::Rails
 
-TODO: Write a gem description
+`junior-rails` integrates [Junior](http://justspamjustin.github.com/junior/#home) front-end framework into Rails apps.
 
 ## Installation
 
@@ -12,13 +12,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install junior-rails
-
 ## Usage
 
-TODO: Write usage instructions here
+After installing the gem, add Junior assets to your manifest files:
+
+    # application.js
+    //= require junior_manifest
+
+    # application.css
+    
 
 ## Contributing
 
