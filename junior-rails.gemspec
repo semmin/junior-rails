@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["semmin", "stoplion"]
   gem.email         = ["sbagreev@gmail.com", "stoplion@gmail.com"]
   gem.description   = %q{Adds Junior front end framework to Rails app}
-  gem.summary       = %q{Packages Junior framework files and adds it to Rails app}
+  gem.summary       = %q{Packages Junior framework files and adds it to Rails app.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "railties", ">= 3.2"
+  gem.add_dependency "railties", ">= 3.1"
 end
