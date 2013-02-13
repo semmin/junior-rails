@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["semmin", "stoplion"]
   gem.email         = ["sbagreev@gmail.com", "stoplion@gmail.com"]
   gem.description   = %q{Adds Junior front end framework to Rails app}
-  gem.summary       = %q{Adds Junior front end framework to Rails app}
+  gem.summary       = %q{Packages Junior framework files and adds it to Rails app}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
